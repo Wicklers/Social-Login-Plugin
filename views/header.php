@@ -22,8 +22,8 @@
     <!--
         JS Files
     -->
-    <script type="text/javascript" src="<?php echo URL; ?>public/js/jquery.min.js"></script>
-    <script type="text/javascript" src="<?php echo URL; ?>public/js/jquery.form.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+    <script type="text/javascript" src="http://malsup.github.io/jquery.form.js"></script>
     <script type="text/javascript" src="<?php echo URL; ?>public/js/custom.js"></script>
     <?php
         if(isset($this->js)){
