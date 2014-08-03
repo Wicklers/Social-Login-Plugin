@@ -167,8 +167,8 @@ class FacebookCurlHttpClient implements FacebookHttpable
       CURLOPT_TIMEOUT        => 60,
       CURLOPT_RETURNTRANSFER => true, // Follow 301 redirects
       CURLOPT_HEADER         => true, // Enable header processing
-      CURLOPT_HTTPPROXYTUNNEL => 0,
-      CURLOPT_PROXY          => '172.16.30.20:8080'
+      //CURLOPT_HTTPPROXYTUNNEL => 0,   //IF USING PROXY TO CONNECT
+      //CURLOPT_PROXY          => '172.16.30.20:8080' //SET PROXY
     );
 
     if ($method !== "GET") {
