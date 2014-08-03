@@ -32,7 +32,6 @@ class Install_Model {
                                                                 name varchar(100) NOT NULL,
                                                                 gender varchar(10) NOT NULL,
                                                                 dob date,
-                                                                age int(3),
                                                                 dos date NOT NULL,
                                                                 PRIMARY KEY(id),
                                                                 UNIQUE KEY(email))";

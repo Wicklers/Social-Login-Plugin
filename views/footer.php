@@ -1,7 +1,7 @@
 </div>
 
     <div id="footer">
-        (c) Harsh Vardhan Ladha | Footer
+        (c) Harsh Vardhan Ladha | Social-Login
     </div>
     
 </body>

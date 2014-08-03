@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>
-        Test
+        Social-Login
     </title>
     
     <!--
@@ -24,7 +24,7 @@
     -->
     <script type="text/javascript" src="<?php echo URL; ?>public/js/jquery.min.js"></script>
     <script type="text/javascript" src="<?php echo URL; ?>public/js/jquery.form.js"></script>
-    <script src="<?php echo URL; ?>public/js/custom.js"></script>
+    <script type="text/javascript" src="<?php echo URL; ?>public/js/custom.js"></script>
     <?php
         if(isset($this->js)){
             foreach($this->js as $js){
@@ -37,10 +37,6 @@
 </head>
 <body>
     <div id="header">
-        Header
-        <br/>
-        <a href="index">Index</a>
-        <a href="help">Help</a>
-        <a href="dashboard">Dashboard</a>
+        Social-Login
     </div>
     <div id="content">

@@ -24,11 +24,5 @@ spl_autoload_register(function($class){
 
 require_once ROOT_DIR."libraries/functions/sanitize.php";
 
-
-
-
-
-
-
-
-Redirect::to("?path=home");
+require ROOT_DIR."controllers/instruction.php";
+$controller = new Instruction();

@@ -6,10 +6,13 @@
  * @author Harsh Vardhan Ladha
  * @link http://facebook.com/harhsvladha
  */
+$url  = isset($_SERVER['HTTPS']) ? 'https://' : 'http://';
+$url .= $_SERVER['SERVER_NAME'];
+$url .= dirname($_SERVER['REQUEST_URI']).'/';
 /**
- * URL of the applicaiton
- */
-define("URL", "http://www/social_login/install/");
+* URL of the applicaiton
+*/
+define("URL", $url);
  
 $path = explode('install',__DIR__);
 /**
