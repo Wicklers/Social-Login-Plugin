@@ -15,6 +15,7 @@ Current Features
   
 Future
 ======
+To improve documentation,instructions,& UI & make it easier for everyone
 It is planned to expand it to multi-social-network login system,
 Social Networks to be included :
 
@@ -31,9 +32,9 @@ Features like :
 
 Example
 =======
-  <button><a href="login.php?type=facebook">Login Using Facebook</a></button>
-  <button><a href="login.php?type=google">Login Using Google</a></button>
-  <button><a href="login.php?type=logout">Logout</a></button>
+  &lt;button&gt;&lt;a href="login.php?type=facebook"&gt;Login Using Facebook&lt;/a&gt;&lt;/button&gt;
+  &lt;button&gt;&lt;a href="login.php?type=google"&gt;Login Using Google&lt;/a&gt;&lt;/button&gt;
+  &lt;button&gt;&lt;a href="login.php?type=logout"&gt;Logout&lt;/a&gt;&lt;/button&gt;
   
 Fork
 ====
