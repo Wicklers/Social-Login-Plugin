@@ -32,9 +32,12 @@ Features like :
 
 Example
 =======
-  &lt;button&gt;&lt;a href="login.php?type=facebook"&gt;Login Using Facebook&lt;/a&gt;&lt;/button&gt;
-  &lt;button&gt;&lt;a href="login.php?type=google"&gt;Login Using Google&lt;/a&gt;&lt;/button&gt;
-  &lt;button&gt;&lt;a href="login.php?type=logout"&gt;Logout&lt;/a&gt;&lt;/button&gt;
+  <i>&lt;button&gt;&lt;a href="login.php?type=facebook"&gt;Login Using Facebook&lt;/a&gt;&lt;/button&gt;</i>
+  <br/>
+  <i>&lt;button&gt;&lt;a href="login.php?type=google"&gt;Login Using Google&lt;/a&gt;&lt;/button&gt;</i>
+  <br/>
+  <i>&lt;button&gt;&lt;a href="login.php?type=logout"&gt;Logout&lt;/a&gt;&lt;/button&gt;</i>
+  <br/>
   
 Fork
 ====
