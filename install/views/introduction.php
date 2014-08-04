@@ -69,12 +69,16 @@
 
 			Help grow this plugin by your contribution, if you are a developer.
 			<a href="https://github.com/harshvladha/Social-Login-Plugin">Fork on GitHub</a>
-	   </p>
+		</p>
 	</div>
-	<button class="button" id="proceed">
-		<br/>
-		&nbsp;PROCEED
-		<br/>
-		&nbsp;
-	</button>
+	<div class="buttons">
+		<div class="right">
+			<button class="button" id="proceed">
+				<br/>
+				&nbsp;PROCEED
+				<br/>
+				&nbsp;
+			</button>
+		</div>
+	</div>
 </div>
