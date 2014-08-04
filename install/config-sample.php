@@ -1,13 +1,11 @@
 <?php
 
-$url = isset($_SERVER['HTTPS']) ? 'https://' : 'http://';
-$url .= $_SERVER['SERVER_NAME'];
-$url .= dirname($_SERVER['REQUEST_URI']).'/';
 
 /**
  * URL of the applicaiton
  */
-define("URL", $url);
+define("URL", "url");
+
 $path = __DIR__ . "\\";
 /**
  * ROOT Directory path on the server system

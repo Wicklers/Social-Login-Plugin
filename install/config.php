@@ -9,6 +9,7 @@
 $url  = isset($_SERVER['HTTPS']) ? 'https://' : 'http://';
 $url .= $_SERVER['SERVER_NAME'];
 $url .= dirname($_SERVER['REQUEST_URI']).'/';
+
 /**
 * URL of the applicaiton
 */
