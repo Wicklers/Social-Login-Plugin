@@ -40,6 +40,9 @@ if (Input::exists('get')) {
     $controller = new $name;
 
 } else {
+    if(loggedIn()){
+        Redirect::to("home.php");
+    }
     //Default login type is FacebookLogin
     require ROOT_DIR . "controllers/FacebookLogin.php";
     $controller = new FacebookLogin();
