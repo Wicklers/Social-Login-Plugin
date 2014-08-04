@@ -102,16 +102,16 @@ label {
     position: relative;
 }
 #header #logo {
-    position: absolute;
-    left: 3px;
+    position: relative;
+    left: 33%;
     top: 26px;
     width: 264px;
     height: 50px;
 }
 #column-right {
-    float: right;
+    float: left;
     width: 284px;
-    margin-left: 30px;
+    margin-right: 50px;
     margin-bottom: 20px;
     min-height: 350px;
 }
@@ -141,13 +141,11 @@ label {
 }
 
 #loading{
-    background: url('../images/loading.gif') 100px center no-repeat;
-    left:0px;
-    margin-left:10%;
-    opacity:1.0;
-    z-index: 999;
+    background: #FFFFFF url('../images/loading.gif') center center no-repeat;
     top:0px;
-    margin-top:-6%;
+    left:0px;
+    opacity:0.7;
+    z-index: 999;
     width:100%;
     height:100%;
     position:fixed;
@@ -213,7 +211,6 @@ input.button {
     height: 28px;
 }
 .buttons {
-    border: 1px solid #DBDBDB;
     overflow: auto;
     padding: 6px;
     margin-bottom: 20px;
