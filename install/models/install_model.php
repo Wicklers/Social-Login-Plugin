@@ -9,9 +9,8 @@ class Install_Model {
     public function check_params() {
         error_reporting(0);
         $this -> db = new Mysqli(Input::get('db-server'), Input::get('db-username'), Input::get('db-password'));
-
         if ($this -> db -> connect_errno) {
-            return $this -> db -> connect_errno;
+            return $this -> db -> connect_error;
         }
     }
 
@@ -21,7 +20,7 @@ class Install_Model {
         $query = "CREATE DATABASE IF NOT EXISTS `" . $db_name . "`";
         $result = $this -> db -> query($query);
         if ($this -> db -> error != '') {
-            echo "Incorrect database name.";
+            echo $this->db->error;
             return;
         }
         $this -> db -> select_db($db_name);

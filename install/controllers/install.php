@@ -49,8 +49,8 @@ class Install extends Controller {
              return;
          }
         $this -> loadmodel("install");
-        if ($this -> model -> check_params()) {
-            echo "Database server settings are not correct.";
+        if ($error = $this -> model -> check_params()) {
+            echo $error;
             return;
         }
         if ($this -> model -> step1()) {
