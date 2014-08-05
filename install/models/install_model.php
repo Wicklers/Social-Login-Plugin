@@ -34,6 +34,7 @@ class Install_Model {
                                                                 gender varchar(10) NOT NULL,
                                                                 dob date,
                                                                 dos date NOT NULL,
+                                                                profile_pic_link varchar(255),
                                                                 PRIMARY KEY(id),
                                                                 UNIQUE KEY(email))";
         $result = $this -> db -> query($query);
