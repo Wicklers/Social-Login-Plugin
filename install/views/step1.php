@@ -27,34 +27,34 @@
 				<tr>
 					<td><span class="required">*</span> Database Host:</td>
 					<td>
-					<input type="text" name="db-server"/>
+					<input type="text" name="db-server" value="<?php echo Session::get('db-server'); ?>"/>
 					<br />
 					</td>
 				</tr>
 				<tr>
 					<td><span class="required">*</span> User:</td>
 					<td>
-					<input type="text" name="db-username"/>
+					<input type="text" name="db-username" value="<?php echo Session::get('db-username'); ?>" />
 					<br />
 					</td>
 				</tr>
 				<tr>
 					<td>Password:</td>
 					<td>
-					<input type="text" name="db-password"/>
+					<input type="password" name="db-password"/>
 					</td>
 				</tr>
 				<tr>
 					<td><span class="required">*</span> Database Name:</td>
 					<td>
-					<input type="text" name="db-name"/>
+					<input type="text" name="db-name" value="<?php echo Session::get('db-name'); ?>" />
 					<br />
 					</td>
 				</tr>
 				<tr>
 					<td><span class="required">*</span> Database Table Name:</td>
 					<td>
-					<input type="text" name="db-table"/>
+					<input type="text" name="db-table" value="<?php echo Session::get('db-table'); ?>" />
 					<br />
 					</td>
 				</tr>

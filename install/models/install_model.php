@@ -21,7 +21,7 @@ class Install_Model {
         $query = "CREATE DATABASE IF NOT EXISTS `" . $db_name . "`";
         $result = $this -> db -> query($query);
         if ($this -> db -> error != '') {
-            echo "Incorrect Database Name";
+            echo "Incorrect database name.";
             return;
         }
         $this -> db -> select_db($db_name);

@@ -1,3 +1,6 @@
+<?php
+Session::destroy();
+?>
 <h1>Introduction</h1>
 <div id="column-right">
 	<ul>
