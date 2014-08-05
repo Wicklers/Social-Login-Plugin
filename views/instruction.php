@@ -55,7 +55,7 @@
                          echo "User Id:".user_id();
                          echo "Profile Picture Link:".profile_pic_link();
                          echo "Gender:".gender();
-                         echo "Email:".email();
+                         echo "Email:".user_email();
                          echo "Date of Birth:".dob();
                     ?&gt;
                 </pre>
