@@ -25,7 +25,7 @@ if(!Session::exists('db-server')){
     <div class="warning" id="warning"></div>
     <form id="step2">
         <p>
-            Please enter your Facebook Application Details
+            <b>Please enter your Facebook Application Details</b>
         </p>
         <fieldset>
             <table class="form">

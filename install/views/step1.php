@@ -58,6 +58,13 @@
 					<br />
 					</td>
 				</tr>
+				<tr>
+                    <td>Proxy: (if you use proxy to connect to internet)</td>
+                    <td>
+                    <input type="text" name="proxy-rule" value="<?php echo Session::get('proxy-rule'); ?>" placeholder="http://address:port"/>
+                    <br />
+                    </td>
+                </tr>
 			</table>
 		</fieldset>
 		<div class="buttons">

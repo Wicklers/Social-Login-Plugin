@@ -47,6 +47,18 @@ define("FB_APP_ID", "fb-app-id");
  */
 define("FB_APP_SECRET_ID", "fb-app-secret-id");
 
+
+/**
+ * If user uses proxy settings to connect to internet, 1 if true, else 0
+ */
+define("PROXY_SETTINGS", "proxy-settings");
+
+
+/**
+ * PROXY RULE !! http://address:port
+ */
+define("PROXY_RULE","proxy-rule");
+
 //header("Cache-Control: no-cache");
 //header("Pragma: no-cache");
 
