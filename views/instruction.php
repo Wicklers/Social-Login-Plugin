@@ -37,7 +37,9 @@
 				<i>Saved user's info can be retrieved as below : </i>
 			</li>
 			<li>
-				<pre>&lt;?php require <i>ROOT_DIR</i>."/functions/loggedin.php" 
+				<pre>&lt;?php 
+				require 'init.php';	//this path must be relative path to <i>this</i> file
+				require <i>ROOT_DIR</i>."libraries/functions/loggedin.php";
 			             if(loggedIn()){
 			                 <i>//user is logged in</i>
 			             }
@@ -48,7 +50,9 @@
 			    </pre>
 			</li>
 			<li>
-				<pre>&lt;?php require <i>ROOT_DIR</i>."functions/use_info.php" 
+				<pre>&lt;?php
+				require 'init.php' //this path must be relative path to <i>this</i> file
+				require <i>ROOT_DIR</i>."libraries/functions/user_info.php" 
                          echo "Full Name:".full_name();
                          echo "First Name:".first_name();
                          echo "Last Name:".last_name();
