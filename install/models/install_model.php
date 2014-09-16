@@ -83,6 +83,7 @@ class Install_Model {
             $content = str_replace($var, $values, $line);
             fwrite($nf, $content);
         }
+        chmod($filename, 0777);
     }
 
 }
