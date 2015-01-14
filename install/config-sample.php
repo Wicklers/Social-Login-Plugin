@@ -6,7 +6,7 @@
  */
 define("URL", "url");
 
-$path = __DIR__ . "\\";
+$path = __DIR__ . "/";
 /**
  * ROOT Directory path on the server system
  */
